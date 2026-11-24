@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunrise Student Hostel - safe rooms, facilities, food and support for students">
+    <title>Sunrise Student Hostel</title>
+
+    <!-- Google Fonts: Poppins for headings and Open Sans for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar: a sticky header with anchor links to page sections -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="#home" aria-label="Sunrise Student Hostel home">
+                <span class="logo-icon" aria-hidden="true">SS</span>
+                <span>Sunrise Student Hostel</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#rooms">Rooms</a>
+                <a href="#facilities">Facilities</a>
+                <a href="#food-menu">Food Menu</a>
+                <a href="#rules">Rules</a>
+                <a href="#support">Support</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero: welcome banner with a hostel name, tagline and two buttons -->
+        <section class="hero" id="home">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <p class="hero-label">Student accommodation</p>
+                    <h1>Sunrise Student Hostel</h1>
+                    <p class="hero-tagline">A safe and comfortable home away from home</p>
+                    <div class="hero-buttons">
+                        <a class="button button-primary" href="#rooms">View Rooms</a>
+                        <a class="button button-secondary" href="#contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / highlights: four short hostel benefits -->
+        <section class="highlights" aria-label="Hostel highlights">
+            <div class="highlight-box">
+                <span class="highlight-icon" aria-hidden="true">🛡️</span>
+                <div>
+                    <h2>24/7 Security</h2>
+                    <p>Safe campus access</p>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <span class="highlight-icon" aria-hidden="true">📶</span>
+                <div>
+                    <h2>High-Speed Wi-Fi</h2>
+                    <p>Study without limits</p>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <span class="highlight-icon" aria-hidden="true">🍲</span>
+                <div>
+                    <h2>Hygienic Food</h2>
+                    <p>Fresh mess meals</p>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <span class="highlight-icon" aria-hidden="true">🎓</span>
+                <div>
+                    <h2>Near College</h2>
+                    <p>Just 10 minutes away</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Available rooms: four equal-height room cards -->
+        <section class="section rooms-section" id="rooms">
+            <div class="section-heading">
+                <p class="eyebrow">Choose your stay</p>
+                <h2>Available Rooms</h2>
+                <p>Comfortable options for every student budget.</p>
+            </div>
+
+            <div class="room-row">
+                <article class="room-card">
+                    <div class="room-image-wrap">
+                        <!-- Replace this image URL with a photo of the actual room -->
+                        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Bright single occupancy bedroom with a bed">
+                        <span class="badge badge-available">Available</span>
+                    </div>
+                    <div class="room-card-content">
+                        <h3>Single Occupancy</h3>
+                        <p class="rent">₹8,500 <span>/ month</span></p>
+                        <p class="beds">3 beds available</p>
+                        <ul class="room-features">
+                            <li>Private attached bathroom</li>
+                            <li>Study table and wardrobe</li>
+                            <li>Daily housekeeping</li>
+                        </ul>
+                        <a class="button card-button" href="#support">Enquire Now</a>
+                    </div>
+                </article>
+
+                <article class="room-card">
+                    <div class="room-image-wrap">
+                        <!-- Replace this image URL with a photo of the actual room -->
+                        <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Clean double sharing room with two beds">
+                        <span class="badge badge-few">Few Beds Left</span>
+                    </div>
+                    <div class="room-card-content">
+                        <h3>Double Sharing</h3>
+                        <p class="rent">₹6,000 <span>/ month</span></p>
+                        <p class="beds">2 beds available</p>
+                        <ul class="room-features">
+                            <li>Two individual study tables</li>
+                            <li>Shared attached bathroom</li>
+                            <li>Individual wardrobes</li>
+                        </ul>
+                        <a class="button card-button" href="#support">Enquire Now</a>
+                    </div>
+                </article>
+
+                <article class="room-card">
+                    <div class="room-image-wrap">
+                        <!-- Replace this image URL with a photo of the actual room -->
+                        <img src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Spacious triple sharing student room">
+                        <span class="badge badge-available">Available</span>
+                    </div>
+                    <div class="room-card-content">
+                        <h3>Triple Sharing</h3>
+                        <p class="rent">₹4,800 <span>/ month</span></p>
+                        <p class="beds">6 beds available</p>
+                        <ul class="room-features">
+                            <li>Three beds and wardrobes</li>
+                            <li>Shared bathroom</li>
+                            <li>Common balcony area</li>
+                        </ul>
+                        <a class="button card-button" href="#support">Enquire Now</a>
+                    </div>
+                </article>
+
+                <article class="room-card">
+                    <div class="room-image-wrap">
+                        <!-- Replace this image URL with a photo of the actual room -->
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Four sharing room with simple modern furniture">
+                        <span class="badge badge-full">Full</span>
+                    </div>
+                    <div class="room-card-content">
+                        <h3>Four Sharing</h3>
+                        <p class="rent">₹3,800 <span>/ month</span></p>
+                        <p class="beds">No beds available</p>
+                        <ul class="room-features">
+                            <li>Individual lockers</li>
+                            <li>Large shared study area</li>
+                            <li>Shared bathroom</li>
+                        </ul>
+                        <a class="button card-button card-button-disabled" href="#support" aria-label="Join waiting list for Four Sharing">Waiting List</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Room facilities: eight compact facility boxes -->
+        <section class="section facilities-section" id="facilities">
+            <div class="section-heading">
+                <p class="eyebrow">Everything you need</p>
+                <h2>Room Facilities</h2>
+            </div>
+            <div class="facility-row">
+                <article class="facility-box"><span aria-hidden="true">📶</span><h3>Wi-Fi</h3><p>Fast internet across the hostel.</p></article>
+                <article class="facility-box"><span aria-hidden="true">⚡</span><h3>Power Backup</h3><p>Uninterrupted electricity supply.</p></article>
+                <article class="facility-box"><span aria-hidden="true">🧺</span><h3>Laundry</h3><p>Paid washing service twice weekly.</p></article>
+                <article class="facility-box"><span aria-hidden="true">🚿</span><h3>Hot Water</h3><p>Hot water available every morning.</p></article>
+                <article class="facility-box"><span aria-hidden="true">📚</span><h3>Study Area</h3><p>Quiet study rooms for exams.</p></article>
+                <article class="facility-box"><span aria-hidden="true">📹</span><h3>CCTV Security</h3><p>Common areas monitored 24/7.</p></article>
+                <article class="facility-box"><span aria-hidden="true">🅿️</span><h3>Parking</h3><p>Secure bicycle and bike parking.</p></article>
+                <article class="facility-box"><span aria-hidden="true">🧹</span><h3>Housekeeping</h3><p>Rooms cleaned on a regular schedule.</p></article>
+            </div>
+        </section>
+
+        <!-- Food menu: a mobile-scrollable weekly menu table -->
+        <section class="section food-section" id="food-menu">
+            <div class="section-heading">
+                <p class="eyebrow">Fresh and balanced</p>
+                <h2>Weekly Food Menu</h2>
+            </div>
+
+            <div class="table-container" tabindex="0" aria-label="Scrollable weekly food menu">
+                <table class="menu-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Day</th>
+                            <th scope="col">Breakfast</th>
+                            <th scope="col">Lunch</th>
+                            <th scope="col">Snacks</th>
+                            <th scope="col">Dinner</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">Monday</th><td>Idli, Sambar, Tea</td><td>Rice, Dal, Veg Curry</td><td>Samosa, Tea</td><td>Chapati, Paneer Curry</td></tr>
+                        <tr><th scope="row">Tuesday</th><td>Poha, Fruit, Milk</td><td>Rice, Rajma, Salad</td><td>Banana, Biscuits</td><td>Fried Rice, Manchurian</td></tr>
+                        <tr><th scope="row">Wednesday</th><td>Dosa, Chutney, Tea</td><td>Chapati, Mixed Dal</td><td>Pav Bhaji</td><td>Rice, Chicken Curry*</td></tr>
+                        <tr><th scope="row">Thursday</th><td>Paratha, Curd</td><td>Rice, Sambar, Cabbage</td><td>Maggi, Tea</td><td>Chapati, Aloo Curry</td></tr>
+                        <tr><th scope="row">Friday</th><td>Upma, Chutney, Milk</td><td>Veg Biryani, Raita</td><td>Vada Pav</td><td>Rice, Egg Curry*</td></tr>
+                        <tr><th scope="row">Saturday</th><td>Puri, Potato Curry</td><td>Chapati, Dal, Salad</td><td>Veg Puffs, Juice</td><td>Dosa, Tomato Curry</td></tr>
+                        <tr><th scope="row">Sunday</th><td>Masala Dosa, Fruit</td><td>Special Meals, Sweet</td><td>Corn, Tea</td><td>Chapati, Paneer Butter Masala</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="menu-note"><strong>Meal timings:</strong> Breakfast 7:30-9:00 AM | Lunch 12:30-2:00 PM | Snacks 5:00-5:30 PM | Dinner 8:00-9:30 PM</p>
+        </section>
+
+        <!-- Hostel rules: short, scannable numbered rule cards -->
+        <section class="section rules-section" id="rules">
+            <div class="section-heading">
+                <p class="eyebrow">For a peaceful stay</p>
+                <h2>Hostel Rules</h2>
+            </div>
+            <div class="rules-row">
+                <article class="rule-card"><span class="rule-number">1</span><p><strong>Entry &amp; Exit:</strong> Return by 9:30 PM; late entry requires warden permission.</p></article>
+                <article class="rule-card"><span class="rule-number">2</span><p><strong>Visitors:</strong> Visitors are allowed only in the reception area between 5:00-7:00 PM.</p></article>
+                <article class="rule-card"><span class="rule-number">3</span><p><strong>Silence Hours:</strong> Keep noise low from 10:00 PM to 6:00 AM.</p></article>
+                <article class="rule-card"><span class="rule-number">4</span><p><strong>Cleanliness:</strong> Keep rooms, bathrooms and common areas clean.</p></article>
+                <article class="rule-card"><span class="rule-number">5</span><p><strong>Restricted Items:</strong> Smoking, alcohol and illegal substances are strictly prohibited.</p></article>
+                <article class="rule-card"><span class="rule-number">6</span><p><strong>ID Card:</strong> Carry your hostel ID card at all times.</p></article>
+                <article class="rule-card"><span class="rule-number">7</span><p><strong>Damage:</strong> Students must pay for any damage they cause to hostel property.</p></article>
+                <article class="rule-card"><span class="rule-number">8</span><p><strong>Appliances:</strong> High-power cooking and heating appliances are not allowed in rooms.</p></article>
+            </div>
+        </section>
+
+        <!-- Complaint and support: contact boxes plus a labeled HTML-only form -->
+        <section class="section support-section" id="support">
+            <div class="section-heading">
+                <p class="eyebrow">We are here to help</p>
+                <h2>Complaints &amp; Support</h2>
+            </div>
+
+            <div class="support-row">
+                <article class="support-box">
+                    <span class="support-icon" aria-hidden="true">👩‍💼</span>
+                    <h3>Warden</h3>
+                    <p><strong>Contact:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
+                    <p><strong>Response time:</strong> Within 2 hours</p>
+                    <p><strong>Working hours:</strong> 8:00 AM-8:00 PM</p>
+                </article>
+                <article class="support-box">
+                    <span class="support-icon" aria-hidden="true">🔧</span>
+                    <h3>Maintenance</h3>
+                    <p><strong>Contact:</strong> <a href="tel:+919876543211">+91 98765 43211</a></p>
+                    <p><strong>Response time:</strong> Within 4 hours</p>
+                    <p><strong>Working hours:</strong> 7:00 AM-9:00 PM</p>
+                </article>
+                <article class="support-box">
+                    <span class="support-icon" aria-hidden="true">🍽️</span>
+                    <h3>Food / Mess</h3>
+                    <p><strong>Contact:</strong> <a href="tel:+919876543212">+91 98765 43212</a></p>
+                    <p><strong>Response time:</strong> Before the next meal</p>
+                    <p><strong>Working hours:</strong> 7:00 AM-9:30 PM</p>
+                </article>
+            </div>
+
+            <!-- This form is HTML only. JavaScript or a backend is needed to store or send the complaint. -->
+            <form class="complaint-form" action="#" method="post">
+                <h3>Submit a Complaint</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="student-name">Name</label>
+                        <input type="text" id="student-name" name="student-name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="room-number">Room Number</label>
+                        <input type="text" id="room-number" name="room-number" placeholder="Example: B-204" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="complaint-type">Complaint Type</label>
+                    <select id="complaint-type" name="complaint-type" required>
+                        <option value="">Select a type</option>
+                        <option value="room">Room or cleanliness</option>
+                        <option value="maintenance">Maintenance</option>
+                        <option value="food">Food or mess</option>
+                        <option value="security">Security</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Describe your complaint" required></textarea>
+                </div>
+                <button class="button button-primary" type="submit">Submit Complaint</button>
+            </form>
+        </section>
+
+        <!-- Contact: address, phones, email, office details and map -->
+        <section class="section contact-section" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">Visit or call us</p>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-row">
+                <div class="contact-details">
+                    <!-- Replace this fictional phone, email and address before deployment -->
+                    <p><strong>Address:</strong> 42 Sunrise Avenue, JNTU Road, Kukatpally, Hyderabad - 500072</p>
+                    <p><strong>Phone:</strong> <a href="tel:+914012345678">+91 40 1234 5678</a></p>
+                    <p><strong>Emergency:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:hello@sunrisehostel.example">hello@sunrisehostel.example</a></p>
+                    <p><strong>Warden:</strong> Ms. Anitha Rao</p>
+                    <p><strong>Office Hours:</strong> Monday-Saturday, 8:00 AM-8:00 PM</p>
+                </div>
+                <div class="map-wrap">
+                    <!-- Placeholder map: replace the address query with the real hostel location -->
+                    <iframe title="Map showing Kukatpally, Hyderabad" src="https://www.google.com/maps?q=Kukatpally%2C%20Hyderabad&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: hostel name, quick links and copyright -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <h2>Sunrise Student Hostel</h2>
+                <p>A safe and comfortable home for students.</p>
+            </div>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="#home">Home</a>
+                <a href="#rooms">Rooms</a>
+                <a href="#food-menu">Food Menu</a>
+                <a href="#support">Support</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <p class="copyright">&copy; 2026 Sunrise Student Hostel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
